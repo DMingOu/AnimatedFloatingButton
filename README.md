@@ -1,5 +1,5 @@
 # AnimatedFloatingButton
-轻量级可扩展带动画的 Material 悬浮按钮，需依赖 Material库
+轻量级可扩展带简单动画的 Material 悬浮按钮，需依赖 Material库
 
 # 使用说明
 
