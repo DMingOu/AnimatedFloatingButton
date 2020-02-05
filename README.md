@@ -28,6 +28,7 @@ allprojects {
 ```groovy
 // build.gradle(Module:)
 dependencies {
+    implementation 'com.google.android.material:material:1.2.0-alpha04'
     implementation 'com.github.DMingOu:AnimatedFloatingButton:0.1.0'
 }
 ```
