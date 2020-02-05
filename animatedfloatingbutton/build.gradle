@@ -1,5 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release' // 添加bintray插件
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.DMingOu'
 
 android {
     compileSdkVersion 29
@@ -16,7 +18,7 @@ android {
 }
 
 dependencies {
-
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly 'com.google.android.material:material:1.2.0-alpha04'
 
 }
@@ -26,7 +28,7 @@ publish {
     repoName = 'AnimatedFloatingButton'          // Binary上的新建的仓库名（Repository）
     groupId = 'qg.odm'        // 依赖名compile 'x:y:z'中的包名x
     artifactId = 'AnimatedFloatingButton'        // 依赖名compile 'x:y:z'中的项目名y
-    publishVersion = '1.0.1'          // 依赖名compile 'x:y:z'中的版本号z
+    publishVersion = '1.0.2'          // 依赖名compile 'x:y:z'中的版本号z
     desc = 'Lightweight expandable Material FloatingActionButton with simple animation'            // 对该开源组件的说明
     website = 'https://github.com/DMingOu/AnimatedFloatingButton'  // VCS地址，项目上传的Github地址
 }
