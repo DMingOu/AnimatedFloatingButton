@@ -41,5 +41,10 @@ setAnimationType(AnimatedFloatingButton.AnimationType type);
 //AnimationType.TRANSLATION_UP_DOWN  平移,向上隐藏，向下出场 
 //AnimationType.TRANSLATION_DOWN_UP  平移,向下隐藏，向上出场
 ```
-基于`Material FloatingActionButton`使用方法与`FloatingActionButton`几乎相同，详情建议参考 [sample](https://github.com/DMingOu/AnimatedFloatingButton/blob/master/app/src/main/java/qg/odm/animatedfloatingbuttondemo/MainActivity.kt) 
+同时支持自定义动画，一行代码即可配置悬浮按钮出场与隐藏动画
+```java
+setCustomAnimator( Animator showAnim , Animator hideAnim);
+```
+- 自定义动画的优先级会高于自带的动画的优先级
+- 本库基于`Material FloatingActionButton`，因此使用方法与`FloatingActionButton`几乎相同，详情建议参考 [sample](https://github.com/DMingOu/AnimatedFloatingButton/blob/master/app/src/main/java/qg/odm/animatedfloatingbuttondemo/MainActivity.kt) 
 
