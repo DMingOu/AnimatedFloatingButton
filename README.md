@@ -35,4 +35,5 @@ dependencies {
 # Gif
 ![1sOLcj.gif](https://s2.ax1x.com/2020/02/05/1sOLcj.gif)
 ## 使用方法
-参考 [sample](https://github.com/DMingOu/AnimatedFloatingButton/blob/master/app/src/main/java/qg/odm/animatedfloatingbuttondemo/MainActivity.kt) 代码
+建议参考 [sample](https://github.com/DMingOu/AnimatedFloatingButton/blob/master/app/src/main/java/qg/odm/animatedfloatingbuttondemo/MainActivity.kt) 
+，十分简单
