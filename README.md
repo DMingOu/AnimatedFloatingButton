@@ -5,7 +5,7 @@
 - Material扩展控件
 - 实现几种常用动画效果
 - 支持自由扩展动画
-- 一行代码开启出场隐藏动画
+- 一行代码即可开启出场隐藏动画
 
 ## 集成
 [![](https://jitpack.io/v/DMingOu/AnimatedFloatingButton.svg)](https://jitpack.io/#DMingOu/AnimatedFloatingButton)
