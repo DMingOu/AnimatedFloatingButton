@@ -1,12 +1,10 @@
 # AnimatedFloatingButton
 轻量级可扩展带简单动画的 Material 悬浮按钮，需依赖 Material库
-# 简介
+## 简介
 
 - Material扩展控件
 - 实现几种常用动画效果
 - 支持自由扩展动画
-
-# 使用说明
 
 ## 集成
 [![](https://jitpack.io/v/DMingOu/AnimatedFloatingButton.svg)](https://jitpack.io/#DMingOu/AnimatedFloatingButton)
@@ -32,7 +30,7 @@ dependencies {
     implementation 'com.github.DMingOu:AnimatedFloatingButton:0.1.0'
 }
 ```
-# Gif
+## Gif
 ![1sOLcj.gif](https://s2.ax1x.com/2020/02/05/1sOLcj.gif)
 ## 使用方法
 建议参考 [sample](https://github.com/DMingOu/AnimatedFloatingButton/blob/master/app/src/main/java/qg/odm/animatedfloatingbuttondemo/MainActivity.kt) 
