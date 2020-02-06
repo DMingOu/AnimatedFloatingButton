@@ -48,5 +48,13 @@ setAnimationType(AnimatedFloatingButton.AnimationType type);
 setCustomAnimator( Animator showAnim , Animator hideAnim);
 ```
 - 自定义动画的优先级会高于自带的动画的优先级
+- 在XML布局中的使用
+```
+    <qg.odm.animatedfloatingbutton.AnimatedFloatingButton
+        android:id = "@+id/aFB_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+```
 - 本库基于`Material FloatingActionButton`，因此使用方法与`FloatingActionButton`几乎相同，详情建议参考 [sample](https://github.com/DMingOu/AnimatedFloatingButton/blob/master/app/src/main/java/qg/odm/animatedfloatingbuttondemo/MainActivity.kt) 
 
